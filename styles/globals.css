@@ -14,3 +14,140 @@ a {
 * {
   box-sizing: border-box;
 }
+
+body{
+  font-size: 16px;
+  font-family: sans-serif;
+  color: #333;
+}
+
+
+
+header{
+  display: flex;
+  margin-top: 0;
+  width: 100vw;
+  height: 15vh;
+  background: #f8f7f7;
+  align-items: center;
+  justify-content: center;
+  box-shadow:  5px 5px 20px rgba(0, 0, 0, 0.25);
+  z-index: 10;
+  position: sticky;
+
+}
+
+nav{
+  max-width: 900px;
+  width: 90%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+}
+
+.logo {
+  font-size: 2rem;
+  font-weight: normal;
+}
+
+.logo-bold{
+  
+  font-weight: bold;
+}
+
+.nav-bar-actions {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  min-width: 40%;
+}
+
+.nav-bar-total{
+  display: flex;
+  align-items: center;
+flex-direction: column; 
+justify-content: center;
+ min-width: 30%;
+}
+
+.nav-bar-total-quantity {
+font-size: 1rem;
+
+}
+
+.nav-bar-total-price{
+  font-size: 1.25rem;
+  font-weight: bold;
+}
+
+button {
+  border: none;
+  padding: 0.3rem 1.3rem;
+  height: 3rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 90%;
+  background-color: #7B56A0 ;
+  border-radius: 0.75rem;
+  cursor: pointer;
+  color: #fff;
+  font: inherit;
+  transition: 0.5s;
+}
+
+button:hover {
+  background-color: #471a74;
+  color: #fff;
+}
+
+.clean-btn{
+  max-width: 8rem;
+}
+
+main{
+  margin-top: 3vh;
+  width: 100%;
+  background-color: lightcoral;
+  min-width: 40vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.products-section{
+  max-width: 900px;
+  width: 90%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.card{
+  background-color: rgb(255, 255, 255);
+  width: 95%;
+  height: 85%;
+  gap: 2rem;
+  padding: 0.90rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin: 0.7rem;
+  border-radius: 1rem;
+  box-shadow: 4px 4px 20px rgba(0, 0, 0, 0.25);
+}
+
+.img-logo{
+  width: 90%;
+  height: 90%;
+object-fit: contain;
+
+}
+
+.h1-card{
+margin: 0pt;
+padding: 0pt;
+}
